@@ -11,7 +11,7 @@
     "dalek-driver-native": "~0.0.5",
     "dalek-reporter-console": "~0.0.6",
     "dalek-browser-phantomjs": "~0.0.3",
-    "q": "~1.0.1",
+    "q": "~1.5.1",
     "chai": "~1.9.1",
     "async": "~0.2.10",
     "eventemitter2": "~0.4.13",
