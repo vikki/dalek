@@ -17,10 +17,11 @@
     "eventemitter2": "~0.4.13",
     "cheerio": "~0.13.1",
     "lodash": "~2.4.1",
-    "js-yaml": "~3.0.2",
+    "js-yaml": "~3.2.7",
     "json5": "~0.2.0",
     "coffee-script": "~1.7.1",
-    "glob": "~3.2.9"
+    "glob": "~3.2.9",
+    "@snyk/protect": "latest"
   },
   "devDependencies": {
     "grunt": "~0.4.4",
@@ -44,7 +45,9 @@
     "dalek-build-tools": "~0.0.2"
   },
   "scripts": {
-    "test": "grunt test"
+    "test": "grunt test",
+    "prepublish": "npm run snyk-protect",
+    "snyk-protect": "snyk-protect"
   },
   "repository": {
     "type": "git",
@@ -69,5 +72,6 @@
   ],
   "engine": {
     "node": ">=0.8"
-  }
+  },
+  "snyk": true
 }
