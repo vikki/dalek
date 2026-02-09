@@ -1,0 +1,75 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.25.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:hawk:20160119':
+    - dalek-driver-native > dalek-internal-webdriver > wd > request > hawk:
+        patched: '2026-02-09T00:49:58.472Z'
+        id: 'npm:hawk:20160119'
+        path: dalek-driver-native > dalek-internal-webdriver > wd > request > hawk
+  'npm:hoek:20180212':
+    - dalek-browser-phantomjs > phantomjs > request > hawk > hoek:
+        patched: '2026-02-09T00:49:58.472Z'
+        id: 'npm:hoek:20180212'
+        path: dalek-browser-phantomjs > phantomjs > request > hawk > hoek
+    - dalek-browser-phantomjs > phantomjs > request > hawk > boom > hoek:
+        patched: '2026-02-09T00:49:58.472Z'
+        id: 'npm:hoek:20180212'
+        path: dalek-browser-phantomjs > phantomjs > request > hawk > boom > hoek
+    - dalek-browser-phantomjs > phantomjs > request > hawk > sntp > hoek:
+        patched: '2026-02-09T00:49:58.472Z'
+        id: 'npm:hoek:20180212'
+        path: dalek-browser-phantomjs > phantomjs > request > hawk > sntp > hoek
+    - dalek-browser-phantomjs > phantomjs > request > hawk > cryptiles > boom > hoek:
+        patched: '2026-02-09T00:49:58.472Z'
+        id: 'npm:hoek:20180212'
+        path: >-
+          dalek-browser-phantomjs > phantomjs > request > hawk > cryptiles >
+          boom > hoek
+  'npm:http-signature:20150122':
+    - dalek-driver-native > dalek-internal-webdriver > wd > request > http-signature:
+        patched: '2026-02-09T00:49:58.472Z'
+        id: 'npm:http-signature:20150122'
+        path: >-
+          dalek-driver-native > dalek-internal-webdriver > wd > request >
+          http-signature
+  'npm:mime:20170907':
+    - dalek-driver-native > dalek-internal-webdriver > wd > request > form-data > mime:
+        patched: '2026-02-09T00:49:58.472Z'
+        id: 'npm:mime:20170907'
+        path: >-
+          dalek-driver-native > dalek-internal-webdriver > wd > request >
+          form-data > mime
+  'npm:minimatch:20160620':
+    - dalek-driver-native > dalek-internal-webdriver > wd > archiver > glob > minimatch:
+        patched: '2026-02-09T00:49:58.472Z'
+        id: 'npm:minimatch:20160620'
+        path: >-
+          dalek-driver-native > dalek-internal-webdriver > wd > archiver > glob
+          > minimatch
+  'npm:request:20160119':
+    - dalek-browser-phantomjs > phantomjs > request:
+        patched: '2026-02-09T00:49:58.472Z'
+        id: 'npm:request:20160119'
+        path: dalek-browser-phantomjs > phantomjs > request
+    - dalek-driver-native > dalek-internal-webdriver > wd > request:
+        patched: '2026-02-09T00:49:58.472Z'
+        id: 'npm:request:20160119'
+        path: dalek-driver-native > dalek-internal-webdriver > wd > request
+  'npm:tough-cookie:20170905':
+    - dalek-browser-phantomjs > phantomjs > request > tough-cookie:
+        patched: '2026-02-09T00:49:58.472Z'
+        id: 'npm:tough-cookie:20170905'
+        path: dalek-browser-phantomjs > phantomjs > request > tough-cookie
+  'npm:tunnel-agent:20170305':
+    - dalek-browser-phantomjs > phantomjs > request > tunnel-agent:
+        patched: '2026-02-09T00:49:58.472Z'
+        id: 'npm:tunnel-agent:20170305'
+        path: dalek-browser-phantomjs > phantomjs > request > tunnel-agent
+    - dalek-driver-native > dalek-internal-webdriver > wd > request > tunnel-agent:
+        patched: '2026-02-09T00:49:58.472Z'
+        id: 'npm:tunnel-agent:20170305'
+        path: >-
+          dalek-driver-native > dalek-internal-webdriver > wd > request >
+          tunnel-agent
